@@ -1,4 +1,3 @@
-# query-sdk
 This is the official SDK for creating and testing scrapers for query.hornung.dev.
 
 ## How to write a scraper
