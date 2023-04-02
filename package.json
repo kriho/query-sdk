@@ -1,0 +1,30 @@
+{
+  "name": "query-sdk",
+  "version": "1.0.0",
+  "author": "Kristjan Hornung",
+  "license": "MIT",
+  "homepage": "query.hornung.dev",
+  "repository": {
+    "url": "https://github.com/kriho/query-sdk.git"
+  },
+  "description": "The SDK that is used to create query.hornung.dev scrapers.",
+  "keywords": [
+    "query",
+    "scraper",
+    "sdk"
+  ],
+  "main": "./main.js",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "xmldom": "^0.6.0",
+    "xpath": "0.0.32"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "nodemon ./bin/www"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "@types/xmldom": "^0.1.31"
+  }
+}

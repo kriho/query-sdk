@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2018",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "lib": [
+            "es2020",
+        ],
+        "inlineSourceMap": true,
+        "declaration": true,
+        "newLine": "CRLF"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "**.ts"
+    ]
+}
