@@ -20,3 +20,7 @@ This is the official SDK for creating and testing scrapers for query.hornung.dev
 - For local debugging, run the scraper (this function does nothing when used by the query.hornung.dev system)
 
   `scraper.run("...");`
+
+## Example
+An full example for scraping boardgame metadata can be found here:
+ https://github.com/kriho/query-sdk-example.git
